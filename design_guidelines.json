@@ -1,0 +1,99 @@
+{
+  "theme": "light",
+  "archetype": "5 (Jewel & Luxury) - Light Mode Variant",
+  "design_philosophy": "Premium, minimal, modern Düsseldorf luxury business aesthetic. Inspired by Königsallee, editorial finance brands, high-end property marketing. Calm, confident, high-trust presentation. Architectural journal meets private banking. No generic portal look, no crowded cards.",
+  "colors": {
+    "background": {
+      "primary": "#F8F6F2",
+      "secondary": "#FFFFFF",
+      "accent": "#F0EBE1"
+    },
+    "text": {
+      "primary": "#0A0A0A",
+      "secondary": "#333333",
+      "muted": "#7A7A7A"
+    },
+    "brand": {
+      "primary": "#0A0A0A",
+      "accent": "#D9D0C1",
+      "graphite": "#333333"
+    },
+    "border": {
+      "light": "#E5E5E5",
+      "medium": "#D9D0C1"
+    }
+  },
+  "typography": {
+    "font_families": {
+      "heading": "Playfair Display, serif",
+      "body": "Manrope, sans-serif"
+    },
+    "rules": {
+      "h1": "text-5xl md:text-6xl lg:text-7xl font-light tracking-tight leading-none",
+      "h2": "text-4xl md:text-5xl lg:text-6xl font-light tracking-tight leading-tight",
+      "h3": "text-2xl md:text-3xl font-light leading-snug",
+      "body": "text-base md:text-lg text-[#333333] leading-relaxed",
+      "overline": "uppercase text-xs md:text-sm tracking-[0.2em] font-semibold text-[#7A7A7A]"
+    }
+  },
+  "layout": {
+    "spacing": "Generous. Use py-24 or py-32 for main sections. p-8 to p-12 for bento grids.",
+    "container": "max-w-[1400px] mx-auto px-6 md:px-12",
+    "patterns": [
+      "Bento Grid for features/services with gap-6 or gap-8",
+      "Asymmetric split sections (e.g., Image 70% left, text 30% right)",
+      "Horizontal scroll section for References gallery"
+    ]
+  },
+  "animations": {
+    "hero": "Word-by-word split text slide-in (Framer Motion).",
+    "scroll": "Sections fade + rise (y: 40 to 0) into viewport. Service titles slide from left, copy from right.",
+    "parallax": "UseScroll from Framer Motion on full-width images. Image moves slower than container.",
+    "numbers": "Count up statistics on scroll view.",
+    "hover_image": "Image reveal effect: images wipe in behind a sliding color overlay when entering viewport.",
+    "cursor": "Custom dot cursor with mix-blend-mode: difference that expands when hovering over images/cards.",
+    "navigation": "Shrinks and becomes translucent on scroll.",
+    "page_transitions": "Smooth fade or slide page transitions using framer-motion AnimatePresence."
+  },
+  "components": {
+    "navigation": "Sticky, glassmorphism on scroll (backdrop-blur-xl bg-[#F8F6F2]/80). Minimalist desktop nav, elegant mobile menu.",
+    "buttons": "Flat solid background (#0A0A0A), white text, rounded-none or rounded-sm, slight hover lift and bg change to graphite (#333333).",
+    "cards": "No visible generic borders. Use subtle background shifts or 1px very light border (#E5E5E5). Images should have hover zoom.",
+    "forms": "Floating labels, minimal borders (border-b only or very subtle full border), no generic Shadcn default look.",
+    "whatsapp_widget": "Floating action button in bottom right corner.",
+    "map": "OpenStreetMap integration centered on Königsallee 98, 40212 Düsseldorf."
+  },
+  "media": {
+    "images": {
+      "hero_backgrounds": [
+        "https://images.unsplash.com/photo-1583312750036-ad189e14a204?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHwyfHxkdXNzZWxkb3JmJTIwYXJjaGl0ZWN0dXJlJTIwa29uaWdzYWxsZWV8ZW58MHx8fHwxNzc0OTc1NDQ3fDA&ixlib=rb-4.1.0&q=85",
+        "https://images.pexels.com/photos/28011239/pexels-photo-28011239.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "https://images.unsplash.com/photo-1774023451397-e7124f5ee281?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHw0fHxkdXNzZWxkb3JmJTIwYXJjaGl0ZWN0dXJlJTIwa29uaWdzYWxsZWV8ZW58MHx8fHwxNzc0OTc1NDQ3fDA&ixlib=rb-4.1.0&q=85"
+      ],
+      "properties_interior": [
+        "https://images.pexels.com/photos/6957083/pexels-photo-6957083.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "https://images.pexels.com/photos/7174393/pexels-photo-7174393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "https://images.unsplash.com/photo-1638972691611-69633a3d3127?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTF8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjByZWFsJTIwZXN0YXRlJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzc0OTc1NDQ2fDA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1639663742190-1b3dba2eebcf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTF8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjByZWFsJTIwZXN0YXRlJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzc0OTc1NDQ2fDA&ixlib=rb-4.1.0&q=85"
+      ],
+      "team_agents": [
+        "https://images.unsplash.com/photo-1772987438485-ac832640c8a5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODd8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjByZWFsJTIwZXN0YXRlJTIwYWdlbnQlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzQ5NzU0NDh8MA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1621313212189-0e4447e1e25b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODd8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjByZWFsJTIwZXN0YXRlJTIwYWdlbnQlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzQ5NzU0NDh8MA&ixlib=rb-4.1.0&q=85",
+        "https://images.pexels.com/photos/30004321/pexels-photo-30004321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      ]
+    }
+  },
+  "instructions_to_main_agent": [
+    "1. Setup Lenis for smooth scrolling globally. This is critical for the premium editorial feel.",
+    "2. Build a CustomCursor component tracking mouse position with framer-motion, set mix-blend-mode: difference. Provide hover states for images/links.",
+    "3. Create a StaggeredText component for the Hero section that splits text by word/character and animates them sliding up with an overflow-hidden mask.",
+    "4. For the 'Referenzen' gallery, use a Horizontal Scroll section (framer-motion useScroll and useTransform) so user scrolls down but content moves left.",
+    "5. Create an ImageReveal component for images entering the viewport: a solid overlay (e.g. #D9D0C1 or #F8F6F2) slides away to reveal the image.",
+    "6. Build a floating WhatsApp widget and integrate an OpenStreetMap view for Königsallee 98, 40212 Düsseldorf.",
+    "7. Implement animated statistic counters that count up when scrolled into view.",
+    "8. Navigation should have a clear, minimal state at top, and shrink into a translucent sticky bar on scroll.",
+    "9. Use lucide-react or @phosphor-icons/react for minimalist iconography.",
+    "10. MUST include 'data-testid' on all interactive elements.",
+    "11. Pages to build: Startseite, Leistungen, Über uns, Referenzen, Karriere, Kontakt, Rechtliches. Use React Router with AnimatePresence for smooth transitions."
+  ]
+}
